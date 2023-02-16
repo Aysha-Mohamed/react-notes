@@ -27,7 +27,7 @@ const EditNote = ({notes,setNotes}) => {
       })
       setNotes(newNotes);
     }
-    navigate('/');
+    navigate('/react-notes');
   }
 
   const handleDelete = (e) =>{
@@ -37,7 +37,7 @@ const EditNote = ({notes,setNotes}) => {
       e.preventDefault();
       const deletedNotes = notes.filter(item => item.id!= id);
       setNotes(deletedNotes);
-      navigate('/');
+      navigate('/react-notes');
     }
     
   }

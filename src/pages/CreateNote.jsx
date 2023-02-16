@@ -21,7 +21,7 @@ const CreateNote = ({setNotes}) => {
       //add this note to notesarray
       setNotes(prevNotes => [note,...prevNotes]);
       //redirect to home page
-      navigate('/');
+      navigate('/react-notes');
     }
   }
 
