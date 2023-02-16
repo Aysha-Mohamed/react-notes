@@ -28,7 +28,7 @@ const CreateNote = ({setNotes}) => {
   return (
     <section>
       <header className="create-note__header">
-        <Link to="/" className="btn">
+        <Link to="/react-notes" className="btn">
           <IoIosArrowBack />
         </Link>
         <button className="btn lg primary" onClick={handleSubmit}>
